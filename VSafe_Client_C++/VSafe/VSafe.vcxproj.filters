@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TM">
+      <UniqueIdentifier>{b7ad4f01-3879-4535-bfb0-2b866fb8fada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE">
+      <UniqueIdentifier>{1ae7041e-1258-4d8c-9ce1-0fb1e953f047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlugIn">
+      <UniqueIdentifier>{766ae017-d889-4eb0-9868-07a2080ccf0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlugIn\ChartCtrl">
+      <UniqueIdentifier>{ad41d671-4567-4587-9917-941774740842}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VSafe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VSafeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Antivirus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extented.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartAxis.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartAxisLabel.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartBalloonLabel.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartBarSerie.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartCandlestickSerie.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartCrossHairCursor.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartCtrl.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartCursor.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartDateTimeAxis.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartDragLineCursor.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartFont.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartGanttSerie.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartGradient.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartGrid.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartLabel.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartLegend.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartLineSerie.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartLogarithmicAxis.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartMouseListener.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartPointsArray.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartPointsSerie.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartScrollBar.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartSerie.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartSerieBase.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartSeriesMouseListener.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartStandardAxis.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartString.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartSurfaceSerie.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartTitle.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl\ChartXYSerie.h">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="PEBaseRlock.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PEDelay.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PEDirectory.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PEExport.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PEImport.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PEInfo.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PEResourceInfo.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PERva2Fo.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PESectionsInfo.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PETimeData.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PETLS.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="CGdiPlusBitmap.h">
+      <Filter>PlugIn</Filter>
+    </ClInclude>
+    <ClInclude Include="GdipButton.h">
+      <Filter>PlugIn</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5.h">
+      <Filter>PlugIn</Filter>
+    </ClInclude>
+    <ClInclude Include="MemDC.h">
+      <Filter>PlugIn</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>PlugIn</Filter>
+    </ClInclude>
+    <ClInclude Include="MyList.h">
+      <Filter>PlugIn</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTab.h">
+      <Filter>PlugIn</Filter>
+    </ClInclude>
+    <ClInclude Include="TmClean.h">
+      <Filter>TM</Filter>
+    </ClInclude>
+    <ClInclude Include="TmEnumWindow.h">
+      <Filter>TM</Filter>
+    </ClInclude>
+    <ClInclude Include="TmFileInfo.h">
+      <Filter>TM</Filter>
+    </ClInclude>
+    <ClInclude Include="TmPerformance.h">
+      <Filter>TM</Filter>
+    </ClInclude>
+    <ClInclude Include="TmProcess.h">
+      <Filter>TM</Filter>
+    </ClInclude>
+    <ClInclude Include="TmProcessInfo.h">
+      <Filter>TM</Filter>
+    </ClInclude>
+    <ClInclude Include="Run.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Software.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Services.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiScan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="datatype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VSafe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VSafeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Antivirus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Protection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Extented.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartAxis.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartAxisLabel.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartBarSerie.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartCandlestickSerie.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartCrossHairCursor.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartCtrl.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartCursor.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartDateTimeAxis.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartDragLineCursor.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartFont.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartGanttSerie.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartGradient.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartGrid.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartLegend.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartLineSerie.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartLogarithmicAxis.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartPointsSerie.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartScrollBar.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartSerie.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartStandardAxis.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartSurfaceSerie.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartTitle.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl\ChartXYSerie.cpp">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GdipButton.cpp">
+      <Filter>PlugIn</Filter>
+    </ClCompile>
+    <ClCompile Include="Md5.cpp">
+      <Filter>PlugIn</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>PlugIn</Filter>
+    </ClCompile>
+    <ClCompile Include="MyList.cpp">
+      <Filter>PlugIn</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTab.cpp">
+      <Filter>PlugIn</Filter>
+    </ClCompile>
+    <ClCompile Include="PEBaseRlock.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PEDelay.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PEDirectory.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PEExport.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PEImport.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PEInfo.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PEResourceInfo.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PERva2Fo.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PESectionsInfo.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PETimeData.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PETLS.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="TmProcessInfo.cpp">
+      <Filter>TM</Filter>
+    </ClCompile>
+    <ClCompile Include="TmClean.cpp">
+      <Filter>TM</Filter>
+    </ClCompile>
+    <ClCompile Include="TmEnumWindow.cpp">
+      <Filter>TM</Filter>
+    </ClCompile>
+    <ClCompile Include="TmFileInfo.cpp">
+      <Filter>TM</Filter>
+    </ClCompile>
+    <ClCompile Include="TmPerformance.cpp">
+      <Filter>TM</Filter>
+    </ClCompile>
+    <ClCompile Include="TmProcess.cpp">
+      <Filter>TM</Filter>
+    </ClCompile>
+    <ClCompile Include="Run.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Software.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Services.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiScan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VSafe.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\VSafe.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ChartCtrl\ChartBalloonLabel.inl">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </None>
+    <None Include="ChartCtrl\ChartLabel.inl">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </None>
+    <None Include="ChartCtrl\ChartPointsArray.inl">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </None>
+    <None Include="ChartCtrl\ChartSerieBase.inl">
+      <Filter>PlugIn\ChartCtrl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\vv.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\rocket.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
